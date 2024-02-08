@@ -1,0 +1,13 @@
+.text-reveal {
+    opacity: 0.1;
+    animation: visible 1.25s linear forwards;
+}
+
+@keyframes visible {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}

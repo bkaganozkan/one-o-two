@@ -21,7 +21,7 @@
     "noEmit": true,
     "jsx": "react-jsx",
   },
-  "include": ["**/*.ts", "**/*.tsx"],
+  "include": ["**/*.ts", "**/*.tsx", "postcss.config.js", "src/components/1svg.js"],
   "references": [
     {
       "path": "./tsconfig.vite.json",

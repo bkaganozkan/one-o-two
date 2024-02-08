@@ -1,0 +1,18 @@
+.image-effect {
+  overflow: hidden;
+  position: absolute;
+  animation: up 0.4s linear forwards;
+}
+.image-effect::before{
+    bottom: -100%;
+}
+
+@keyframes up {
+  0% {
+    bottom: -100%;
+  }
+  100% {
+    bottom: 0%;
+  }
+  
+}

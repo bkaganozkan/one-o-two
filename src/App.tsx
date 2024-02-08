@@ -1,13 +1,15 @@
 import styles from './App.module.css';
+import PreparedPage from './components/Page';
 
 export function App() {
+
   return (
     <>
-      <header>
-        <h1>HubX Frontend Assignment</h1>
-      </header>
-
-      <main className={styles.main}></main>
+      <main className={styles.main}>
+        <div className='bg-zinc-100 min-h-screen flex items-center'>
+          <PreparedPage />
+        </div>
+      </main>
     </>
   );
 }
